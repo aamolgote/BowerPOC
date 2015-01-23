@@ -1,17 +1,20 @@
 ﻿{
-  "name": "my-project",
+  "name": "BowerPoC",
   "version": "1.0.0",
-  "main": "path/to/main.css",
+  "main": [
+    './UIComponents/JS/controller.js',
+    './UIComponents/JS/services.js',
+	'./UIComponents/csscustom.css'
+  ],
+
   "ignore": [
     ".jshintrc",
     "**/*.txt"
   ],
   "dependencies": {
-    "<name>": "<version>",
-    "<name>": "<folder>",
-    "<name>": "<package>"
+   
   },
   "devDependencies": {
-    "<test-framework-name>": "<version>"
+    
   }
 }
