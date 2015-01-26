@@ -1,12 +1,7 @@
 ﻿{
   "name": "BowerPoC",
   "version": "1.0.0",
-  "main": [
-    'UIComponents/JS/controller.js',
-    'UIComponents/JS/services.js',
-	'UIComponents/css/custom.css'
-  ],
-
+  "main": "UIComponents/JS/*.js",
   "ignore": [
     "**/.*"
   ],
