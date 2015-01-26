@@ -2,14 +2,13 @@
   "name": "BowerPoC",
   "version": "1.0.0",
   "main": [
-    './UIComponents/JS/controller.js',
-    './UIComponents/JS/services.js',
-	'./UIComponents/csscustom.css'
+    'UIComponents/JS/controller.js',
+    'UIComponents/JS/services.js',
+	'UIComponents/csscustom.css'
   ],
 
   "ignore": [
-    ".jshintrc",
-    "**/*.txt"
+    "**/.*"
   ],
   "dependencies": {
    
