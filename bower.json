@@ -1,5 +1,5 @@
 ﻿{
-  "name": "BowerPoC",
+  "name": "BowerPOC",
   "version": "1.0.0",
   "main": "UIComponents/JS/controller.js",
   "ignore": [
