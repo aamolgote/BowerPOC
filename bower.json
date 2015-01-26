@@ -4,7 +4,7 @@
   "main": [
     'UIComponents/JS/controller.js',
     'UIComponents/JS/services.js',
-	'UIComponents/csscustom.css'
+	'UIComponents/css/custom.css'
   ],
 
   "ignore": [
