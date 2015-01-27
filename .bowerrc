@@ -1,0 +1,15 @@
+{
+  "directory": "app/components/",
+  "analytics": false,
+  "timeout": 120000,
+  "json": "bower.json",
+  "registry": {
+    "search": [
+      "http://localhost:5678"
+    ],
+	"register": "http://localhost:5678",
+	"publish": "http://localhost:5678"
+  },
+  "proxy":"http://proxy.ml.com:8083/",
+  "https-proxy":"http://proxy.ml.com:8083/"
+}
