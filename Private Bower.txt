@@ -1,0 +1,40 @@
+﻿Open Node Command Prompt
+cd "C:\Users\zknnajg\AppData\Roaming\npm\node_modules\private-bower"
+
+start private bower using below command 
+"private-bower"
+
+With Fiddler Register Package 
+Url:
+	http://localhost:5678/registerpackage
+
+Method:
+	POST
+
+Headers : 
+	User-Agent: Fiddler
+	Content-Type: application/json
+
+Request Body: 
+	{ "name": "BowerPOC", "repo": "git://github.com/aamolgote/BowerPOC.git" }
+
+
+On executing this request Node Command Prompt should show
+ Registered package: BowerPOC
+
+ Open Browser "Http://localhost:5678" , it should show the package BowerPOC
+
+ Now in the Node command prompt Navigate to the project where you want to install the BowerPOC package
+ e.g. D:\Aamol\ngseed-develop\ngseed-develop>cd D:\Aamol\ngseed-develop\ngseed-develop
+ At this location please ensure you have .bowercc file with following registry configuration
+ 
+ "registry": {
+    "search": [
+      "http://localhost:5678"
+    ],
+	"register": "http://localhost:5678",
+	"publish": "http://localhost:5678"
+  }
+
+  Post this use bower install command to install the package
+  bower install BowerPOC

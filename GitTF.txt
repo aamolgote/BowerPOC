@@ -1,0 +1,11 @@
+In Git Bash Command Line
+Select Directory "D:\Aamol\TFS\UF\Dev\UFServerSide\POCs\GitTfRepo"
+Make Change in TFS Bower POC and Commit Changes in Visual studio
+Clone TFS Repository
+git-tf clone http://tfsapp.services.us.ml.com/tfs/3 $/UF/Dev/UFServerSide/POCs/BowerPoc
+cd "BowerPoc/"
+git pull "https://github.com/aamolgote/BowerPOC.git" "master"
+Resolve Conflicts Using Visual Studio for GitTfRepo\BowerPOC, select all local file changes
+git commit -a -m "merge commit"
+git push "https://github.com/aamolgote/BowerPOC.git" "master"
+
